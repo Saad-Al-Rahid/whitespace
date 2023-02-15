@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
-/* font-family: 'DM Sans', sans-serif;
-font-family: 'Inter', sans-serif; */
-
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -18,6 +15,12 @@ body {
   padding: 16px 40px;
   margin-right: 1.5rem;
   margin-left: 18px;
+  transition: all 400ms linear;
+}
+
+.login__btn:hover {
+  color: #fff;
+  background: #4f9cf9;
 }
 
 .common__btn {
@@ -25,6 +28,12 @@ body {
   background: #4f9cf9;
   border-radius: 8px;
   padding: 16px 24px;
+  transition: all 400ms linear;
+}
+
+.common__btn:hover {
+  background-color: #ffe492;
+  color: #043873;
 }
 
 .common__btn img {
@@ -59,23 +68,102 @@ body {
   justify-content: center;
 }
 
-/* ===HEADER END=== */
+/* ---MEDIA QUERIES--- */
 
 @media (max-width: 991px) {
-
-  .navbar-nav{
+  .navbar-brand img {
+    width: 150px;
+  }
+  .navbar-nav {
     margin-top: 2rem;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    position: relative;
+  }
+
+  .navbar-nav .nav-item .nav-link::after {
+    position: absolute;
+    top: 1.2rem;
+    right: 0;
+  }
+
+  .header__area .navbar-toggler {
+    box-shadow: none !important;
   }
   .login__btn {
     margin-top: 2rem;
     margin-right: 0rem;
-    margin-left:0;
+    margin-left: 0;
     margin-bottom: 0.5rem;
-    width:100%;
-  }
-
-  .navbar-collapse .common__btn{
     width: 100%;
   }
 
+  .navbar-collapse .common__btn {
+    width: 100%;
+  }
 }
+
+/* ===HEADER END=== */
+
+/* ===HERO SECTION START=== */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/Hero-section.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero__heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  margin-top: 326px;
+}
+
+.hero__para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+
+  letter-spacing: -0.02em;
+
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.hero__right {
+  max-width: 1000px;
+  max-height: 1000px;
+  background: rgba(204, 204, 204, 0.2);
+  margin-top: 232px;
+}
+
+@media (max-width: 991px) {
+  .hero__heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-top: 136px;
+  }
+
+  .hero .row{
+    text-align: center;
+  }
+}
+
+/* ===HERO SECTION END=== */
