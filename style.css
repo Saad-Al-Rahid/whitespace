@@ -10,3 +10,72 @@ body {
   background: #ccc;
   color: #fff;
 }
+
+.login__btn {
+  color: #043873;
+  background: #ffe492;
+  border-radius: 8px;
+  padding: 16px 40px;
+  margin-right: 1.5rem;
+  margin-left: 18px;
+}
+
+.common__btn {
+  color: #fff;
+  background: #4f9cf9;
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+
+.common__btn img {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+/* ===HEADER START=== */
+
+.header__area {
+  background: #043873;
+  padding: 1rem 0;
+}
+
+.header__area nav .container .nav-link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 2rem;
+  color: #fff;
+}
+
+.container .navbar-toggler {
+  outline: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===HEADER END=== */
+
+@media (max-width: 991px) {
+
+  .navbar-nav{
+    margin-top: 2rem;
+  }
+  .login__btn {
+    margin-top: 2rem;
+    margin-right: 0rem;
+    margin-left:0;
+    margin-bottom: 0.5rem;
+    width:100%;
+  }
+
+  .navbar-collapse .common__btn{
+    width: 100%;
+  }
+
+}
