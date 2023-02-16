@@ -42,6 +42,10 @@ body {
   margin-left: 10px;
 }
 
+.section__padding {
+  padding: 140px 0;
+}
+
 /* ===HEADER START=== */
 
 .header__area {
@@ -161,9 +165,100 @@ body {
     margin-top: 136px;
   }
 
-  .hero .row{
+  .hero .row {
     text-align: center;
   }
 }
 
 /* ===HERO SECTION END=== */
+
+/* ===MANAGEMENT SECTION START=== */
+
+.section__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+.section__title span {
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section__para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.management {
+  background: #fff;
+}
+
+.first__left {
+  padding: 68px 68px 68px 0;
+}
+
+.first__left .common__btn {
+  margin-top: 30px;
+}
+
+.second {
+  margin-top: 100px;
+}
+
+.second__right {
+  padding: 183.5px 0 183.5px 100px;
+}
+
+.second__right .common__btn {
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  .section__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+  }
+
+  .first__left {
+    padding: 0;
+    text-align: center;
+  }
+
+  .section__para {
+    line-height: 30px;
+    letter-spacing: -0.02em;
+  }
+  .first__left .common__btn {
+    margin-bottom: 100px;
+  }
+
+  .second .second__left{
+    order: 2;
+  }
+
+  .second .second__right{
+    margin-bottom:60px;
+    padding:0;
+    text-align: center;
+    order: 1;
+  }
+}
+
+/* ===MANAGEMENT SECTION END=== */
