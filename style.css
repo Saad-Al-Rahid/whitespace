@@ -241,12 +241,12 @@ body {
     text-align: center;
   }
 
-  .management p{
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 30px;
-      text-align: center;
-      letter-spacing: -0.02em;
+  .management p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
   }
 
   .section__para {
@@ -271,9 +271,9 @@ body {
 
 /* ===MANAGEMENT SECTION END=== */
 
-/* ===CUSTOMISE SECTION START=== */
+/* ===Extention SECTION START=== */
 
-.extention{
+.extention {
   background: #043873;
 }
 
@@ -283,6 +283,25 @@ body {
   line-height: 87px;
   letter-spacing: -0.02em;
   color: #ffffff;
+}
+
+.extention__left h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+.extention__left h1 span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
 }
 
 .extention__left p {
@@ -299,6 +318,7 @@ body {
     text-align: center;
     letter-spacing: -0.02em;
   }
+
   .extention__left p {
     font-weight: 400;
     font-size: 16px;
@@ -307,7 +327,70 @@ body {
     letter-spacing: -0.02em;
   }
 
-  .extention__left .common__btn{
+  .extention__left .common__btn {
+    margin-bottom: 60px;
+  }
+}
+
+/* ===EXTENTION SECTION END=== */
+
+/* ===CUSTOMISE SECTION START=== */
+
+.customise {
+  background: #fff;
+}
+
+.customise__right h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: #043873;
+}
+
+.customise__right h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+.customise__right h1 span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.customise__right p {
+  margin-bottom: 60px;
+  color: #043873;
+}
+
+@media (max-width: 991px) {
+  .customise .container .row {
+    text-align: center;
+  }
+  .customise__right h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .customise__right p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  .customise__right .common__btn {
     margin-bottom: 60px;
   }
 }
