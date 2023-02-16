@@ -241,6 +241,14 @@ body {
     text-align: center;
   }
 
+  .management p{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: -0.02em;
+  }
+
   .section__para {
     line-height: 30px;
     letter-spacing: -0.02em;
@@ -249,16 +257,59 @@ body {
     margin-bottom: 100px;
   }
 
-  .second .second__left{
+  .second .second__left {
     order: 2;
   }
 
-  .second .second__right{
-    margin-bottom:60px;
-    padding:0;
+  .second .second__right {
+    margin-bottom: 60px;
+    padding: 0;
     text-align: center;
     order: 1;
   }
 }
 
 /* ===MANAGEMENT SECTION END=== */
+
+/* ===CUSTOMISE SECTION START=== */
+
+.extention{
+  background: #043873;
+}
+
+.extention__left h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.extention__left p {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 991px) {
+  .extention .container .row {
+    text-align: center;
+  }
+  .extention__left h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .extention__left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  .extention__left .common__btn{
+    margin-bottom: 60px;
+  }
+}
+
+/* ===CUSTOMISE SECTION END=== */
