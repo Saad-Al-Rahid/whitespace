@@ -396,3 +396,194 @@ body {
 }
 
 /* ===CUSTOMISE SECTION END=== */
+
+/* ===PRICING SECTION START=== */
+
+.pricing {
+  background: #fff;
+}
+
+.pricing .pricing__title h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+.pricing .pricing__title p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+.pricing__title h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+.pricing__title h1 span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.pricing__cards {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.pricing__box__free {
+  background: #ffffff;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+  padding: 40px 44px;
+
+  color: #000;
+}
+.pricing__box__free h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.pricing__box__free p {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.pricing__box__Personal {
+  background: #043873;
+  color: #fff;
+  padding: 80px 44px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.pricing__box__Personal h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.pricing__box__Personal h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #ffe492;
+}
+
+.pricing__box__Personal p {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.pricing__box__Personal .first__para {
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.pricing__box__Personal img {
+  margin-right: 19px;
+}
+
+.free__btn {
+  background: #ffffff;
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+  padding: 16px 40px;
+}
+
+@media (max-width: 991px) {
+  .pricing .pricing__title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .pricing__box__free {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .pricing__box__Personal {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* ===PRICING SECTION END=== */
+
+/* ===WORK SECTION START== */
+
+.work {
+  background-color: #043873;
+  color: #fff;
+}
+
+.work h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+}
+
+.work p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  margin-top: 24px;
+  margin-bottom:60px;
+}
+
+.work h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+.work h1 span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+@media (max-width: 991px) {
+  .work h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* ===WORK SECTION END== */
