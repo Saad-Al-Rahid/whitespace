@@ -4,7 +4,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  background: #ccc;
+  background: #fff;
   color: #fff;
 }
 
@@ -203,9 +203,9 @@ body {
   color: #212529;
 }
 
-.management {
+/* .management {
   background: #fff;
-}
+} */
 
 .first__left {
   padding: 68px 68px 68px 0;
@@ -336,9 +336,9 @@ body {
 
 /* ===CUSTOMISE SECTION START=== */
 
-.customise {
+/* .customise {
   background: #fff;
-}
+} */
 
 .customise__right h1 {
   font-weight: 700;
@@ -399,9 +399,9 @@ body {
 
 /* ===PRICING SECTION START=== */
 
-.pricing {
+/* .pricing {
   background: #fff;
-}
+} */
 
 .pricing .pricing__title h1 {
   font-family: "Inter";
@@ -555,7 +555,7 @@ body {
   line-height: 30px;
   letter-spacing: -0.02em;
   margin-top: 24px;
-  margin-bottom:60px;
+  margin-bottom: 60px;
 }
 
 .work h1 span {
@@ -587,3 +587,122 @@ body {
 }
 
 /* ===WORK SECTION END== */
+
+/* ===DATA SECTION START=== */
+
+.data {
+  background-color: #fff;
+}
+
+.data h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+.data h1 span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* ===DATA SECTION END=== */
+
+/* ===SPONSOR SECTION START=== */
+
+.sponsor h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+.sponsor h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+.sponsor h1 span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  background-image: url(./images/Element.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.sponsor .apple {
+  height: 68px;
+  width: 56px;
+}
+.sponsor .microsoft {
+  height: 68px;
+  width: 287px;
+}
+.sponsor .slack {
+  height: 68px;
+  width: 287px;
+}
+.sponsor .google {
+  height: 68px;
+  width: 216px;
+}
+
+.sponsor__img {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 100px;
+}
+
+@media (max-width: 991px) {
+
+
+  .sponsor{
+    padding-top: 0;
+  }
+  .sponsor h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+  }
+  .sponsor__img {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .sponsor .apple {
+    height: 60px;
+    width: 50px;
+  }
+  .sponsor .microsoft {
+    height: 60px;
+    width: 200px;
+  }
+  .sponsor .slack {
+    height: 60px;
+    width: 200px;
+  }
+  .sponsor .google {
+    height: 60px;
+    width: 200px;
+  }
+}
+
+/* ===SPONSOR SECTION END=== */
