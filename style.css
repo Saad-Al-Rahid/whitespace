@@ -912,6 +912,136 @@ body {
   .trail h5 {
     text-align: left;
   }
+
+  .trail .trail__img img {
+    height: 35px;
+    width: auto;
+    margin-right: 1rem;
+  }
 }
 
 /* ===TRAIL SECTION END=== */
+
+/* ===FOOTER SECTION START=== */
+
+footer {
+  background: #043873;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: 25% 1fr 1fr 1fr 22%;
+  padding-top: 140px;
+  padding-bottom: 66px;
+}
+
+.footer__first .navbar-brand img {
+  margin-bottom: 1rem;
+}
+
+.footer__top .footer__second h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+
+.footer__top .footer__second li {
+  list-style: none;
+}
+
+.footer__top .footer__second a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+.footer__top .footer__third h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__bottom__left {
+  display: flex;
+  list-style: none;
+}
+
+.footer__bottom__left li a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.footer__bottom__left li a i {
+  margin: 5px;
+}
+
+.social__links__right {
+  display: flex;
+  list-style: none;
+}
+
+.social__links__right li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.social__links__right li a i {
+  font-size: 22px;
+}
+
+@media (max-width: 991px) {
+  footer {
+    text-align: center;
+  }
+  .footer__top {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__top .footer__second {
+    margin-top: 60px;
+  }
+
+  .footer__top .footer__third {
+    margin-top: 60px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+  }
+  .footer__bottom__left {
+    flex-direction: column;
+  }
+
+  .footer__bottom__left li {
+    margin-bottom: 1rem;
+  }
+
+  .footer__bottom__left li a {
+    margin-right: 0;
+  }
+
+  .social__links__right {
+    margin: 0;
+    padding: 0;
+  }
+
+  .social__links__right li a {
+    margin: 0 0.5rem;
+  }
+}
+
+/* ===FOOTER SECTION END=== */
