@@ -858,3 +858,60 @@ body {
 }
 
 /* ===TESTIMONIAL SECTION END=== */
+
+/* ===TRAIL SECTION START=== */
+
+.trail {
+  padding-top: 140px;
+  background: #043873;
+}
+
+.trail h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.trail h5 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+}
+
+.trail .trail__img img {
+  height: 60px;
+  width: auto;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.trail button {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+  .trail .container .row {
+    text-align: left !important;
+  }
+
+  .trail h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  .trail h5 {
+    text-align: left;
+  }
+}
+
+/* ===TRAIL SECTION END=== */
