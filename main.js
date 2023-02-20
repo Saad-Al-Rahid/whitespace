@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $(".pricing__cards").owlCarousel({
     loop: true,
     margin: 30,
     responsiveClass: true,
@@ -7,12 +7,28 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1,
-        nav: true,
+        mouseDrag: true,
       },
       991: {
         items: 3,
-        nav: false,
-        loop: true,
+        mouseDrag: false,
+      },
+    },
+  });
+});
+
+$(document).ready(function () {
+  $(".testimonial__slider").owlCarousel({
+    loop: true,
+    margin: 30,
+    responsiveClass: true,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      991: {
+        items: 3,
       },
     },
   });
