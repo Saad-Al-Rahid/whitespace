@@ -8,6 +8,16 @@ body {
   color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #ffe492;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #043873;
+  border-radius: 10px;
+}
+
 .login__btn {
   color: #043873;
   background: #ffe492;
@@ -108,8 +118,7 @@ body {
   margin-bottom: 30px;
 }
 
-
-.hero__left button{
+.hero__left button {
   margin-bottom: 1rem;
 }
 /* 
